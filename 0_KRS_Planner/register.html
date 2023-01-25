@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+  </head>
+
+  <style>
+    body {
+      background-color: whitesmoke;
+    }
+
+    .lingkaran {
+      border-radius: 50%;
+      position: fixed;
+      width: 272.19px;
+      height: 272.19px;
+      left: 57.3px;
+      top: -40.19px;
+      background: #ffe569;
+      z-index: -30;
+    }
+
+    .lingkaran2 {
+      position: fixed;
+      width: 886.95px;
+      height: 886.95px;
+      border-radius: 50%;
+      left: 922px;
+      top: 487.48px;
+      z-index: -1;
+      background: #a1bcff;
+      overflow: hidden;
+    }
+  </style>
+  <body>
+    <div class="lingkaran"></div>
+    <div class="flex flex-row gap-12 justify-center mt-[80px] mb-[80px]">
+      <div
+        class="icon w-[530px] h-[864px] px-[116px] py-[267.5px] rounded-2xl"
+        style="background-color: #a1bcff">
+        <img src="img/gajah.svg" alt="" />
+      </div>
+
+      <!-- Kotak Kiri -->
+
+      <div class="register bg-white w-[530px] h-[864px] rounded-2xl">
+        <div class="title">
+          <h1 class="text-center mt-[70px] text-3xl font-bold">KRS Planner</h1>
+          <h1
+            class="register-title text-[48px] font-bold text-center mt-[227.5px] mx-0">
+            Register
+          </h1>
+        </div>
+
+        <div class="registrasi-containt flex flex-col justify-center">
+          <div>
+            <h1 class="email mx-[90px] mt-[38px]">Email</h1>
+          </div>
+          <div>
+            <input
+              type="text"
+              placeholder="Type here"
+              class="bg-slate-50 w-[350px] h-[56px] rounded-lg shadow-xl text-left px-4 mx-[90px]" />
+          </div>
+          <div>
+            <button
+              class="btn btn-active btn-primary w-[350px] h-[56px] rounded-lg first-letter mt-4 mx-[90px] text-white shadow-xl"
+              style="background-color: #4071f0">
+              Button
+            </button>
+          </div>
+
+          <div class="footer">
+            <h1
+              class="text-[15px] font-[400px] text-gray-500 mx-[140px] mt-[32px]">
+              Already have an accout?
+              <a href="" class="text-blue-500">Login Here</a>
+            </h1>
+          </div>
+        </div>
+      </div>
+      <!--  -->
+    </div>
+    <div class="lingkaran2"></div>
+  </body>
+</html>
