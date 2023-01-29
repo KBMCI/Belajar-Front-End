@@ -40,18 +40,18 @@
     <div class="lingkaran"></div>
     <div class="flex flex-row gap-12 justify-center mt-[80px] mb-[80px]">
       <div
-        class="icon w-[530px] h-[864px] px-[116px] py-[267.5px] rounded-2xl"
+        class="icon w-[530px] h-[580px] rounded-2xl px-[116px] py-[120px]"
         style="background-color: #a1bcff">
-        <img src="img/gajah.svg" alt="" />
+        <img src="../assets/img/register/gajah.svg" alt="" />
       </div>
 
       <!-- Kotak Kiri -->
 
-      <div class="register bg-white w-[530px] h-[864px] rounded-2xl">
+      <div class="register bg-white w-[530px] h-[580px] rounded-2xl">
         <div class="title">
           <h1 class="text-center mt-[70px] text-3xl font-bold">KRS Planner</h1>
           <h1
-            class="register-title text-[48px] font-bold text-center mt-[227.5px] mx-0">
+            class="register-title text-[48px] font-bold text-center mt-[100px] mx-0">
             Register
           </h1>
         </div>
@@ -62,23 +62,27 @@
           </div>
           <div>
             <input
-              type="text"
-              placeholder="Type here"
-              class="bg-slate-50 w-[350px] h-[56px] rounded-lg shadow-xl text-left px-4 mx-[90px]" />
+              type="email"
+              placeholder="you@example.com"
+              class="peer bg-slate-50 w-[350px] h-[56px] rounded-lg shadow-xl text-left px-4 mt-[20px] mx-[90px] invalid:border-2 invalid:border-pink-500 appearance-none border focus:outline-none invalid:text-pink-600" />
+            <p
+              class="mx-[90px] invisible peer-invalid:visible text-pink-600 text-sm">
+              Please provide a valid email address.
+            </p>
           </div>
           <div>
             <button
-              class="btn btn-active btn-primary w-[350px] h-[56px] rounded-lg first-letter mt-4 mx-[90px] text-white shadow-xl"
+              class="btn btn-active btn-primary w-[350px] h-[56px] rounded-lg first-letter mt-[10px] mx-[90px] text-white shadow-xl"
               style="background-color: #4071f0">
-              Button
+              Register
             </button>
           </div>
 
           <div class="footer">
             <h1
-              class="text-[15px] font-[400px] text-gray-500 mx-[140px] mt-[32px]">
+              class="text-[15px] font-[400px] text-gray-500 mx-[140px] mt-[20px]">
               Already have an accout?
-              <a href="" class="text-blue-500">Login Here</a>
+              <a href="./Login.html" class="text-blue-500">Login Here</a>
             </h1>
           </div>
         </div>
