@@ -7,9 +7,10 @@
       rel="apple-touch-icon"
       sizes="76x76"
       href=" ../assets/img/apple-icon.png" />
-    <link rel="icon" type="image/png" href=" ../assets/img/favicon.png" />
-    <title>Sobat KRS | Random KRS</title>
-    <!--     Fonts and icons     -->
+      <link rel="icon" type="image/png" href=" ../assets/img/favicon.png" />
+      <title>Sobat KRS | Random KRS</title>
+      <!--     Fonts and icons     -->
+     
     <link
       href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700"
       rel="stylesheet" />
@@ -30,32 +31,13 @@
     <script src="https://unpkg.com/flowbite@1.5.1/dist/flowbite.js"></script>
     <script src="assets/js/search-table.js"></script>
 
-    <!-- JQUERY -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-    <script type="text/javascript" src=" ../assets/js/randomKRS/reload.js"></script>
+  <!-- Random Krs Styling -->
+  <link rel="stylesheet" href="../assets/css/randomKrs.css">
   </head>
   <style>
-    ul li {
-      display: inline-block;
-      margin: 0 2px;
-     
-      width: 45px;
-      height: 45px;
-      border-radius: 10%;
-      text-align: center;
-      font-size: 14px;
-      font-weight: 500;
-      line-height: 45px;
-      cursor: pointer;
-    }
-
-    ul li.active {
-      background: blue;
-      background-repeat: no-repeat;
-      color: white;
-    }
+    @import url('https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap');
   </style>
-  <body class="m-0 font-sans antialiased font-normal text-base leading-default bg-gray-50 ">
+  <body class="m-0 antialiased font-normal font-nunito text-base leading-default bg-gray-50 ">
       <!-- sidenav  -->
       <aside class="max-w-62.5 ease-nav-brand z-990 fixed inset-y-0 w-full -translate-x-full flex-wrap items-center justify-between overflow-y-auto rounded-2xl border-0 bg-gray-50 border-r-2 p-0 antialiased shadow-none transition-transform duration-200">
         <div class="h-19.5">
@@ -222,7 +204,7 @@
         
         <main class="mx-[60px]">
             <!-- Header -->
-          <div class="flex flex-row mt-4  justify-between">
+          <div class="flex flex-row mt-4  justify-between ">
             <h1>Kamu dapat menemukan Plan KRS tanpa melakukan perencanaan KRS secara manual.</h1>
             <div>
 
@@ -631,10 +613,10 @@
                
               </button>
               <ul class="my-[20px] mx-[30px]">
-                <li class="link active" value="1" onclick="activeLink()">1</li>
-                <li class="link" value="2" onclick="activeLink()">2</li>
-                <li class="link" value="3" onclick="activeLink()">3</li>
-                <li class="link" value="4" onclick="activeLink()">4</li>
+                <li class="pn link active" value="1" onclick="activeLink()">1</li>
+                <li class="pn link" value="2" onclick="activeLink()">2</li>
+                <li class="pn link" value="3" onclick="activeLink()">3</li>
+                <li class="pn link" value="4" onclick="activeLink()">4</li>
               </ul>
               <button
                 class="btn2 inline-flex items-center text-[22px] font-bold text-[#383838] bg-transparent outline-none"
