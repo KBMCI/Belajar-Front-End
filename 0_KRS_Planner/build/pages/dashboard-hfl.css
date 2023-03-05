@@ -1136,14 +1136,14 @@
   margin-bottom: 0;
   text-decoration: none;
 }
-.dashboard-hfl-rectangle1075 {
+/* .dashboard-hfl-rectangle1075 {
   top: 512px;
   left: 677px;
   width: 73px;
   height: 59px;
   position: absolute;
   box-shadow: 0px 8px 24px 0px rgba(0, 0, 0, 0.25) ;
-}
+} */
 .dashboard-hfl-button-save {
   top: 534px;
   left: 682px;
@@ -1203,29 +1203,25 @@
 }
 .dashboard-hfl-header06 {
   display: flex;
+  width: 47px;
+  height: 42px;
+  box-sizing: border-box;
+  flex-direction: row;
   padding: 10px 16px;
-  overflow: hidden;
-  position: relative;
   align-self: stretch;
-  align-items: flex-start;
-  flex-shrink: 0;
-  border-color: rgba(168, 181, 194, 1);
-  border-style: solid;
-  border-width: Symbol(figma.mixed)px;
-  margin-bottom: 0px;
+  align-items: center;
+  border-bottom: 1px solid #A8B5C2;
 }
 .dashboard-hfl-row30 {
   display: flex;
+  width: 47px;
+  height: 51.12px;
+  box-sizing: border-box;
+  flex-direction: row;
   padding: 10px 16px;
-  overflow: hidden;
-  position: relative;
-  flex-grow: 1;
   align-self: stretch;
   align-items: center;
-  border-color: rgba(168, 181, 194, 1);
-  border-style: solid;
-  border-width: Symbol(figma.mixed)px;
-  margin-bottom: 0px;
+  border-bottom: 1px solid #A8B5C2;
 }
 .dashboard-hfl-checkbox {
   width: 15px;
@@ -1236,16 +1232,14 @@
 }
 .dashboard-hfl-row31 {
   display: flex;
+  width: 47px;
+  height: 51.12px;
+  box-sizing: border-box;
+  flex-direction: row;
   padding: 10px 16px;
-  overflow: hidden;
-  position: relative;
-  flex-grow: 1;
   align-self: stretch;
   align-items: center;
-  border-color: rgba(168, 181, 194, 1);
-  border-style: solid;
-  border-width: Symbol(figma.mixed)px;
-  margin-bottom: 0px;
+  border-bottom: 1px solid #A8B5C2;
 }
 .dashboard-hfl-checklistbox {
   width: 15px;
@@ -1255,13 +1249,13 @@
   position: relative;
   align-self: auto;
   box-sizing: border-box;
-  align-items: flex-start;
+  align-items: center;
   flex-shrink: 1;
   border-color: transparent;
   border-style: none;
   border-width: 0;
   margin-right: 0;
-  border-radius: 0px 0px 0px 0px;
+  border-radius: 10px 10px 10px 10px;
   margin-bottom: 0;
   flex-direction: row;
   justify-content: flex-start;
@@ -1276,16 +1270,14 @@
 }
 .dashboard-hfl-row32 {
   display: flex;
+  width: 47px;
+  height: 51.12px;
+  box-sizing: border-box;
+  flex-direction: row;
   padding: 10px 16px;
-  overflow: hidden;
-  position: relative;
-  flex-grow: 1;
   align-self: stretch;
   align-items: center;
-  border-color: rgba(168, 181, 194, 1);
-  border-style: solid;
-  border-width: Symbol(figma.mixed)px;
-  margin-bottom: 0px;
+  border-bottom: 1px solid #A8B5C2;
 }
 .dashboard-hfl-checkbox1 {
   width: 15px;
@@ -1296,16 +1288,14 @@
 }
 .dashboard-hfl-row33 {
   display: flex;
+  width: 47px;
+  height: 51.12px;
+  box-sizing: border-box;
+  flex-direction: row;
   padding: 10px 16px;
-  overflow: hidden;
-  position: relative;
-  flex-grow: 1;
   align-self: stretch;
   align-items: center;
-  border-color: rgba(168, 181, 194, 1);
-  border-style: solid;
-  border-width: Symbol(figma.mixed)px;
-  margin-bottom: 0px;
+  border-bottom: 1px solid #A8B5C2;
 }
 .dashboard-hfl-checklistbox1 {
   width: 15px;
@@ -1315,13 +1305,13 @@
   position: relative;
   align-self: auto;
   box-sizing: border-box;
-  align-items: flex-start;
+  align-items: center;
   flex-shrink: 1;
   border-color: transparent;
   border-style: none;
   border-width: 0;
   margin-right: 0;
-  border-radius: 0px 0px 0px 0px;
+  border-radius: 10px 10px 10px 10px;
   margin-bottom: 0;
   flex-direction: row;
   justify-content: flex-start;
@@ -1336,16 +1326,14 @@
 }
 .dashboard-hfl-row34 {
   display: flex;
+  width: 47px;
+  height: 51.12px;
+  box-sizing: border-box;
+  flex-direction: row;
   padding: 10px 16px;
-  overflow: hidden;
-  position: relative;
-  flex-grow: 1;
   align-self: stretch;
   align-items: center;
-  border-color: rgba(168, 181, 194, 1);
-  border-style: solid;
-  border-width: Symbol(figma.mixed)px;
-  margin-bottom: 0px;
+  border-bottom: 1px solid #A8B5C2;
 }
 .dashboard-hfl-checklistbox2 {
   width: 15px;
@@ -1355,13 +1343,13 @@
   position: relative;
   align-self: auto;
   box-sizing: border-box;
-  align-items: flex-start;
+  align-items: center;
   flex-shrink: 1;
   border-color: transparent;
   border-style: none;
   border-width: 0;
   margin-right: 0;
-  border-radius: 0px 0px 0px 0px;
+  border-radius: 10px 10px 10px 10px;
   margin-bottom: 0;
   flex-direction: row;
   justify-content: flex-start;
@@ -1376,16 +1364,14 @@
 }
 .dashboard-hfl-row35 {
   display: flex;
+  width: 47px;
+  height: 51.12px;
+  box-sizing: border-box;
+  flex-direction: row;
   padding: 10px 16px;
-  overflow: hidden;
-  position: relative;
-  flex-grow: 1;
   align-self: stretch;
   align-items: center;
-  border-color: rgba(168, 181, 194, 1);
-  border-style: solid;
-  border-width: Symbol(figma.mixed)px;
-  margin-bottom: 0px;
+  border-bottom: 1px solid #A8B5C2;
 }
 .dashboard-hfl-checkbox2 {
   width: 15px;
@@ -1396,16 +1382,14 @@
 }
 .dashboard-hfl-row36 {
   display: flex;
+  width: 47px;
+  height: 51.12px;
+  box-sizing: border-box;
+  flex-direction: row;
   padding: 10px 16px;
-  overflow: hidden;
-  position: relative;
-  flex-grow: 1;
   align-self: stretch;
   align-items: center;
-  border-color: rgba(168, 181, 194, 1);
-  border-style: solid;
-  border-width: Symbol(figma.mixed)px;
-  margin-bottom: 0px;
+  border-bottom: 1px solid #A8B5C2;
 }
 .dashboard-hfl-checkbox3 {
   width: 15px;
@@ -1432,13 +1416,13 @@
   position: relative;
   align-self: auto;
   box-sizing: border-box;
-  align-items: flex-start;
+  align-items: center;
   flex-shrink: 1;
   border-color: transparent;
   border-style: none;
   border-width: 0;
   margin-right: 0;
-  border-radius: 0px 0px 0px 0px;
+  border-radius: 10px 10px 10px 10px;
   margin-bottom: 0;
   flex-direction: row;
   justify-content: flex-start;
